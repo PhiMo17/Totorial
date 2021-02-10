@@ -15,6 +15,11 @@ public class Wall {
 		this.width = width;
 		this.height = height;
 	}
+	    /*public Wall(double width, double height) {
+	    super();
+	    setWidth(width);
+	    setHeight(height);
+	    }*/
 
 	public double getWidth() {
 		return width;
