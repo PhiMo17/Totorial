@@ -22,4 +22,14 @@ public class Cuboid extends Rectangle{
 	public double getVolume() {
 		return super.getArea() * height;
 	}
+
+	@Override
+	public double getArea() {
+		// TODO Auto-generated method stub
+		//return super.getArea();
+		double Area1 = ((super.getLength() * height));
+		double Area2 = ((super.getWidth() * height));
+		return (Area1 * 2 + Area2 * 2 + super.getArea() * 2);
+		
+	}
 }

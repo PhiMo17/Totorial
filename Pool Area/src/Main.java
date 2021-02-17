@@ -14,6 +14,7 @@ public class Main {
 		System.out.println("cuboid.area= " + cuboid.getArea());
 		System.out.println("cuboid.height= " + cuboid.getHeight());
 		System.out.println("cuboid.volume= " + cuboid.getVolume());
+		System.out.println("cuboid.getArea= " + cuboid.getArea());
 	}
 
 }

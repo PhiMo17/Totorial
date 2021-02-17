@@ -22,4 +22,16 @@ public class Cylinder extends Circle{
 	public double getVolume() {
 		return super.getArea() * height;
 	}
+
+	@Override
+	public double getArea() {
+		// TODO Auto-generated method stub
+		//return super.getArea();
+		
+		double AreaFlat = super.getCircumference() * height;
+		
+		return AreaFlat + (super.getArea() * 2);
+	}
+	
+	
 }
